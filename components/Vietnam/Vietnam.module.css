@@ -1,0 +1,21 @@
+#vietnamImage {
+  animation: float-vertical 4s ease-in-out infinite;
+  animation-delay: 1s;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes float-vertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-0.8%);
+  }
+}
+
+.h2 {
+  text-shadow: 1px 1px 4px #888888;
+}
